@@ -24,3 +24,10 @@ const sass = require('gulp-sass')(require('sass'));
 npm i sass
 
 ````
+
+
+### How to run the Gulp
+
+- gulp has been setup to use ==src== dir for entry point and ==public== for the output
+- using the command **gulp** will start the gulp compile and watch
+- currently gulp compress has not been implemented, might integrate this later
